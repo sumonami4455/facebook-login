@@ -1,0 +1,184 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  color: #777777; 
+}
+/* =========== HEADER START =============== */
+.container{
+  width: 1000px;
+  margin: 0 auto;
+  
+}
+.container:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+header{
+  background-color: #3B5998;
+  color: #fff;
+  padding: 20px 0;
+}
+#logo{
+  width: 50%;
+  float: left;
+  font-size: 40px;
+  
+	font-weight: bold; 
+	text-transform: lowercase; 
+}
+#login{
+  width: 50%;
+  float: left;
+  font-size: 13px;
+ 
+}
+#login .password a{
+  margin-top: 5px;
+  display: block;
+  color: #9cb4d8;
+  text-decoration: none;
+} 
+#login .password a:hover{
+  text-decoration: underline;
+}
+.user{
+  width: 40%;
+  float: left;
+}
+.password{
+  width: 40%;
+  float: left;
+}
+.submit{
+  width: 20%;
+  float: left;
+}
+#login input[type="text"],#login input[type="password"]{
+  padding: 3px 5px;
+  margin-top: 5px;
+}
+#login input[type="submit"]{
+  background-color: #4267b2;
+  color: #fff;
+  padding: 4px 5px;
+  font-weight: bold;
+  
+  border: 1px solid #29487d; 
+  margin-top: 21px;
+  transition: .3s;
+}
+#login input[type="submit"]:hover{
+  background-color: #365899;
+}
+/* =========== HEADER END =============== */
+
+/* ============ MAINCONTENT START =============== */
+#content{
+  background: linear-gradient(#FFFFFF ,#D3D8E8 )
+}
+section{
+  padding: 30px 0;
+}
+.one_half{
+  width: 50%;
+  float: left;
+}
+h2{
+	color: #0E385F; 
+	margin: 0; 
+	font-size: 20px; 
+}
+h2.title{
+  font-size: 40px;
+  color: #222;
+  font-weight: bold;
+}
+h4{
+  color: #222;
+  font-weight: normal;
+  font-size: 18px; 
+  margin-bottom: 15px;
+}
+img{
+  max-width: 100%;
+}
+#signup input[type="text"],#signup input[type="password"]{
+  width: 98%;
+  padding: 10px 1%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #BDC7D8;
+  font-size: 18px; 
+}
+#signup .first input[type="text"],#signup .last input[type="text"]{
+  width: 95%;
+}
+#signup .last {
+  text-align: right;
+}
+#signup p{
+  margin: 15px 0;
+  color: #757575;
+}
+#signup select{
+  padding: 4px;
+  margin-bottom: 15px;
+  border: 1px solid #BDC7D8; 
+}
+#signup a{
+  color: #715899;
+  text-decoration: none;
+}
+#signup a:hover{
+  text-decoration: underline;
+}
+#signup label {
+	color: #1D2129; 
+  margin: 5px;
+}
+#signup input[type="submit"]{
+  padding: 20px 50px;
+  background: linear-gradient(#79bc64, #578843);
+  border: 1px solid #3B6E22;;
+  font-size: 22px;
+  color: #fff;
+  border-radius: 10px;
+}
+#signup input[type="submit"]:hover{
+  background: linear-gradient( #578843,#79bc64); 
+  cursor: pointer;
+}
+/* ============ MAINCONTENT END =============== */
+/* ============ Footer Start =============== */
+ul{
+  list-style-type: none;
+  
+}
+ul li{
+  display: inline-block;
+}
+ul li:first-child{
+  
+}
+ul li a{
+  text-decoration: none;
+  color: #715899;
+  padding: 10px 15px;
+  display: block;
+  font-size: 14px;
+}
+ul li a:hover{
+  text-decoration: underline;
+}
+ul li a:first-child{
+  padding-left: 0;
+}
+hr{
+  border-color: #DDDFE2;
+  
+}
+
+
